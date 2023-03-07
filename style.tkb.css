@@ -1,21 +1,21 @@
 table
 {
-    font-family: arial, sans-serif;
+    font-family: arial, fantasy;
     border-collapse: collapse;
     width: 100%;
 }
-td,th,tr
+td,th
 {
-    border: 1px solid #dddddd;
+    border: 1px solid brown;
     text-align: center;
     padding: 10px;
 }
-tr:nth-child(1)
+th
 {
-    background-color: aqua;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px;
+    background-color: paleturquoise;
 }
-tr:nth-child(2)
-{
-    background-color: aqua;
-}
+
 
